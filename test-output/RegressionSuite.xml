@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="225" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="93" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+      <class name="TestNgPackage.Login">
+        <test-method status="PASS" signature="Login01()[pri:0, instance:TestNgPackage.Login@cb5822]" name="Login01" duration-ms="19" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login01 -->
+        <test-method status="PASS" signature="Login02()[pri:0, instance:TestNgPackage.Login@cb5822]" name="Login02" duration-ms="3" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login02 -->
+        <test-method status="PASS" signature="Login03()[pri:0, instance:TestNgPackage.Login@cb5822]" name="Login03" duration-ms="2" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login03 -->
+        <test-method status="PASS" signature="Login04()[pri:0, instance:TestNgPackage.Login@cb5822]" name="Login04" duration-ms="3" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login04 -->
+      </class> <!-- TestNgPackage.Login -->
+    </test> <!-- Login -->
+    <test name="Home" duration-ms="28" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+      <class name="TestNgPackage.Home">
+        <test-method status="PASS" signature="Home01()[pri:0, instance:TestNgPackage.Home@4883b407]" name="Home01" duration-ms="2" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home01 -->
+        <test-method status="PASS" signature="Home02()[pri:0, instance:TestNgPackage.Home@4883b407]" name="Home02" duration-ms="3" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home02 -->
+        <test-method status="PASS" signature="Home03()[pri:0, instance:TestNgPackage.Home@4883b407]" name="Home03" duration-ms="6" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home03 -->
+        <test-method status="PASS" signature="Home04()[pri:0, instance:TestNgPackage.Home@4883b407]" name="Home04" duration-ms="2" started-at="2020-05-22T23:54:15Z" finished-at="2020-05-22T23:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home04 -->
+      </class> <!-- TestNgPackage.Home -->
+    </test> <!-- Home -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

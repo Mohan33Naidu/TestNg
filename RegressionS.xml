@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="TestNgPackage.Login">
+      <methods>
+      <include name="Login01"></include>
+      <include name="Login03"></include>
+     <include name="Login04"></include>
+     
+      </methods>
+      </class>
+      
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Home">
+    <classes>
+       
+      <class name="TestNgPackage.Home">
+      <methods>
+      <exclude name="Home01"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+</suite> <!-- RegressionSuite -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite_Group">
+  <test thread-count="5" name="LoginPage">
+  <groups>
+  <run>
+  <include name="RegrssnGroup"/>
+  </run>
+  </groups>
+    <classes>
+      
+      <class name="TestNgPackage.TestCase_LoginGroup">
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="HomePage">
+   <groups>
+   <run>
+   <include name="RegrssnGroup"/>
+   </run>
+   </groups>
+    <classes>
+      <class name="TestNgPackage.TestCase_HomeGroup">
+     <!--  <include name="Home02"/> -->
+      </class>
+       </classes>
+    </test>
+</suite> <!-- RegressionSuite_Group -->

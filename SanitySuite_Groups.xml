@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanitySuite">
+  <test thread-count="5" name="HomeTest">
+  <groups>
+  <run>
+  <include name="SanityGroup"/>
+  <include name="RegrssnGroup"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNgPackage.TestCase_HomeGroup"/>
+      
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="LoginTest">
+  <groups>
+  <run>
+  <include name="SanityGroup"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNgPackage.TestCase_LoginGroup"/>
+    </classes>
+  </test> 
+</suite> <!-- SanitySuite -->
+
+
+
+
+ 
+  
+
+
